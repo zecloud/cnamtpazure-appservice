@@ -32,4 +32,4 @@ jobs:
         app-name: 'cnamtpwebayw'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_895756849a2f47ea83363d5943719837 }}
-        package: .
+        package: /build
